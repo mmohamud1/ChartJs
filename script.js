@@ -1,5 +1,5 @@
 const ctx = document.getElementById('chart').getContext('2d');
-const myChart = new Chart(ctx, {
+const pollChart = new Chart(ctx, {
   type: 'bar',
   data: {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
