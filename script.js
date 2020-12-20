@@ -43,7 +43,7 @@ const pollData = [
   },
 ];
 
-// Change global font for chart
+// Change global font family for chart (also can change font size, color and style)
 Chart.defaults.global.defaultFontFamily = "'Saira', sans-serif";
 
 const ctx = document.getElementById('chart').getContext('2d');
@@ -77,9 +77,9 @@ const pollChart = new Chart(ctx, {
     title: {
       display: true,
       text: 'The Best Superhero',
-      fontColor: "#333",
+      fontColor: '#333',
       fontSize: 20,
-      padding: 20
+      padding: 20,
     },
   },
 });
