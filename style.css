@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+    background-color: #eeee;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+    margin: 1.25rem 0 0.25rem 0;
+}
+
+canvas {
+    border: 3px solid blue;
+}
