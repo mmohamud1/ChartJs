@@ -1,27 +1,24 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Saira', sans-serif;
-    background-color: #eeee;
-    color: #111;
+  font-family: 'Saira', sans-serif;
+  background-color: #eeee;
+  color: #111;
 }
 
 h1 {
-    text-align: center;
-    margin: 1.25rem 0 0.25rem 0;
+  text-align: center;
+  margin: 1.25rem 0 0.25rem 0;
+  margin-bottom: 1%;
 }
 
 .chart-container {
-    position: relative;
-    height: 40vh;
-    width: 80vw;
-
-}
-
-canvas {
-    border: 3px solid blue;
+  position: relative;
+  height: 40vh;
+  width: 80vw;
+  margin: auto;
 }
