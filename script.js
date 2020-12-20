@@ -2,37 +2,37 @@ const pollData = [
   {
     option: 'Spider-Man',
     votes: 11,
-    backgroundColor: 'rgba(223, 31, 45, 0.3)',
+    backgroundColor: 'rgba(223, 31, 45, 0.6)',
     borderColor: 'rgb(223,31,45)',
   },
   {
     option: 'Superman',
     votes: 8,
-    backgroundColor: 'rgba(49, 116, 153, 0.3)',
+    backgroundColor: 'rgba(49, 116, 153, 0.6)',
     borderColor: 'rgb(49, 116, 153)',
   },
   {
     option: 'Son Goku',
     votes: 5,
-    backgroundColor: 'rgba(255, 159, 64, 0.3)',
+    backgroundColor: 'rgba(255, 159, 64, 0.6)',
     borderColor: 'rgb(255, 159, 64)',
   },
   {
     option: 'Batman',
     votes: 14,
-    backgroundColor: 'rgba(36, 36, 36, 0.3)',
+    backgroundColor: 'rgba(36, 36, 36, 0.6)',
     borderColor: 'rgb(36, 36, 36)',
   },
   {
     option: 'Hulk',
     votes: 3,
-    backgroundColor: 'rgba(155,192,99, 0.3)',
+    backgroundColor: 'rgba(155,192,99, 0.6)',
     borderColor: 'rgb(155,192,99)',
   },
   {
     option: 'Wolverine',
     votes: 7,
-    backgroundColor: 'rgba(255,180,0, 0.3)',
+    backgroundColor: 'rgba(255,180,0, 0.6)',
     borderColor: 'rgb(255,180,0)',
   },
   {
