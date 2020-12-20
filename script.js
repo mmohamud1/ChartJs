@@ -47,13 +47,13 @@ const ctx = document.getElementById('chart').getContext('2d');
 const pollChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: pollData.map(pollOption => pollOption.option),
+    labels: pollData.map((pollOption) => pollOption.option),
     datasets: [
       {
         label: 'Number of Votes',
-        data: pollData.map(pollVotes => pollVotes.votes),
-        backgroundColor: pollData.map(bgColor => bgColor.backgroundColor),
-        borderColor: pollData.map(bdrColor => bdrColor.borderColor),
+        data: pollData.map((pollVotes) => pollVotes.votes),
+        backgroundColor: pollData.map((bgColor) => bgColor.backgroundColor),
+        borderColor: pollData.map((bdrColor) => bdrColor.borderColor),
         borderWidth: 3,
       },
     ],
@@ -70,6 +70,10 @@ const pollChart = new Chart(ctx, {
     },
     legend: {
       display: false,
+    },
+    title: {
+      display: true,
+      text: 'The Best Superhero',
     },
   },
 });
