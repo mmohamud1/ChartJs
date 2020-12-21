@@ -22,3 +22,11 @@ h1 {
   width: 80vw;
   margin: auto;
 }
+
+.second-chart-container {
+  margin-top: 25%;
+}
+
+.second-title {
+  font-size: 32px;
+}
